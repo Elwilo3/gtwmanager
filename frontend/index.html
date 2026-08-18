@@ -5,19 +5,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="app">
+        <button id="launch-button" onclick="launchGame()">Launch Game</button>
 
-    <button id="launch-button" onclick="launchGame()">Launch Game</button>
-    
-    <div class="mods-container">
-        <div class="mod-list">
-            <h2>Enabled</h2>
-            <div id="enabled"></div>
-        </div>
+        <h2>Split Categories</h2>
+        <div id="split-categories"></div>
 
-        <div class="mod-list">
-            <h2>Disabled</h2>
-            <div id="disabled"></div>
-        </div>
+        <button onclick="addSplitCategory()">Add Category</button>
+
+        <h2>Enabled Mods</h2>
+        <div id="enabled"></div>
+
+        <h2>Disabled Mods</h2>
+        <div id="disabled"></div>
     </div>
 
     <script src="script.js"></script>
